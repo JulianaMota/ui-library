@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*************************************/
+
+
+/***************** ROOT AND GLOBAL CODE *******************/
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    /* Colors */
+    /* --color-black: #000000;
+    --color-grey: #ebe9e2;
+    --color-wine: #850036;
+    --color-pink: #d97e9b;
+    --color-white: #fff;
+    --color-darkgrey: #747474;
+    --color-greylight: #c7c7c7; */
+    /* Typefaces */
+    --display-font: Arial, Helvetica, sans-serif;
+    --text-font: Arial, Helvetica, sans-serif;
+    --font-size-textsmall: 14px;
+    --font-size-note: 12px;
+    --font-size-titlebig: 40px;
+    --font-size-title: 30px;
+    --font-size-text: 16px;
+    --font-size-subtitle: 20px;
+    --font-size-notesmall: 10px;
+    --font-size-subtitlebig: 25px;
+    --font-size-subtitlesmall: 18px;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: var(--display-font);
+}
+
+.container {
+    margin-top: 60px;
+}
+
+section {
+    padding: 7% 10%;
+}
+
+section:nth-child(even) {
+    background-color: rgb(136, 194, 248);
+}
+
+h1 {
+    font-size: var(--font-size-titlebig);
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+h2 {
+    font-size: var(--font-size-title);
+    padding: 0 0 2rem;
+}
+
+p,
+span {
+    font-size: var(--font-size-subtitlesmall);
+    line-height: 35px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+button {
+    width: 200px;
+    background: rgb(57, 166, 199);
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    outline: transparent;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(128, 200, 233);
+}
